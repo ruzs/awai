@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" />
+    <title>Awai阿浣委託</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body oncontextmenu="return false">
+    <div id="modal_img">
+        <div class="modal_container">
+            <div class="modal_container_img">
+                <img src="img/sample/mkhl3vupmef1_orig.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="modal_footer">
+            
+        </div>
+    </div>
+    <div id="top">
+        <div class="top_left">
+            <img src="https://panels.twitch.tv/panel-26304932-image-27d1210a-9b87-49b2-8b10-f89aa88e82e3" alt="" srcset="">
+        </div>
+        <div class="top_middle">
+            <div class="btn_area">
+                <div class="btn section_title active" data-title="about_me">ABOUT ME</div>
+                |
+                <div class="btn section_title"data-title="commission">COMMISSION</div>
+                |
+                <div class="btn section_title"data-title="gallery">GALLERY</div>
+                |
+                <div class="btn section_title"data-title="contact">CONTACT</div>
+            </div>
+        </div>
+        <div class="top_right"></div>
+    </div>
+    <section id="first">
+        <div class="container">
+            <div class="container_top">
+                <div class="text">
+                    illustration/animation/Live2Dmodel/sticker/.etc....
+                </div>
+                <div class="icon_area">
+                    <div class="icon icon_x" data-href="https://twitter.com/AwaiMokkha">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50" style="color:#fff">
+                            <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z" fill="#EDBFA0"></path>
+                        </svg>
+                    </div>
+                    <div class="icon icon_twitch" data-href="https://www.twitch.tv/okajkfha">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0,0,256,256">
+                            <g fill="#edbfa0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.3125,1l-3.3125,8.8125v33.1875h11v6h7.40625l6,-6h9l12.59375,-12.5625v-29.4375zM11,6h32v22l-6,6h-12l-6,6v-6h-8zM20,13v14h6v-14zM30,13v14h6v-14z"></path></g></g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content">
+                <div class="img_area">
+                    <div class="img">
+                        <img src="img/sample/mkhl3vupmef1_orig.jpg" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/352234_orig.jpg" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/705370517_orig.jpg" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/horuto_orig.jpg" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/1-4_orig.png" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/amon-106_orig.png" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/b_orig.png" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/oz_orig.png" alt="" srcset="">
+                    </div>
+                    <div class="img">
+                        <img src="img/sample/750702350_orig.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="container_bottom">
+
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        <div class="footer_left"></div>
+        <div class="footer_middle">
+            <div class="Copyright">
+                Copyright © 2024 Ruzs & Awai. All rights reserved.
+            </div>
+        </div>
+        <div class="footer_right"></div>
+    </div>
+    
+    <script src="./js/jquery.min.js"></script>
+    <script>
+
+        $(document).on('click','.top_middle .btn',function () {
+            $(this).addClass('active').siblings().removeClass('active')
+            console.log($(this).data('title'));
+            // switch ($(this).data('title')) {
+            //     case "about_me":
+                    
+            //         break;
+            //     case "commission":
+                    
+            //         break;
+            //     case "gallery":
+                    
+            //         break;
+            //     case "contact":
+                    
+            //         break;
+            
+            //     default:
+            //         break;
+            // }
+        });
+        $('#modal_img:visible').hide();
+        $(document).on('click','.icon',function () {
+            window.open($(this).data('href'),'._blank');
+        });
+        $(document).on('click','.main_content .img',function () {
+            console.log($(this));
+            $('.modal_footer').html('');
+            let img_HTML=``;
+            let imgs_HTML=``;
+            $('#modal_img').fadeIn(300);
+            $('body').css('overflow-y','hidden');
+            $('.modal_container_img img').attr('src',$(this).find('img').attr('src'));
+            $.each($('.main_content .img_area img'),function (key,img) {
+                console.log($(img));
+                img_HTML=`<div class="img"><img src="${$(img).attr('src')}" alt="" srcset=""></div>`;
+                imgs_HTML=imgs_HTML+img_HTML;
+            })
+            $('.modal_footer').html(imgs_HTML);
+        });
+        $(document).on('click','#modal_img:visible .modal_container',function () {
+            console.log($(this));
+            $('#modal_img').fadeOut(300);
+            $('body').css('overflow-y','scroll')
+        });
+        $(document).on('click','#modal_img:visible .modal_footer .img',function () {
+            $('.modal_container_img img').attr('src',$(this).find('img').attr('src'));
+        });
+        
+    // </script>
+</body>
+<!-- </html> -->

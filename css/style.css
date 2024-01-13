@@ -1,0 +1,212 @@
+@charset "UTF-8";
+body {
+  background-color: #fff;
+  font-family: "微軟正黑體", serif;
+}
+
+section {
+  margin-top: 86px;
+  background-color: #000;
+}
+
+#top {
+  top: 0;
+  padding: 8px;
+  background: #000;
+  height: 86px;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#top .top_left {
+  width: 15%;
+}
+#top .top_left img {
+  margin-left: 20px;
+  height: 70px;
+  cursor: pointer;
+}
+#top .top_middle {
+  width: 70%;
+  text-align: center;
+}
+#top .top_middle .btn_area {
+  color: #fff;
+  margin: 0px auto;
+  height: 100%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+#top .top_middle .btn_area .section_title {
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+#top .top_middle .btn_area .active {
+  -webkit-box-shadow: 0px 1px #999;
+          box-shadow: 0px 1px #999;
+}
+#top .top_right {
+  width: 15%;
+}
+
+#first .container {
+  padding-top: 8px;
+}
+#first .container .container_top {
+  padding: 0px 0px 70px 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  background-size: cover;
+  background-image: url("../img/container.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #EDBFA0;
+  font-weight: bold;
+  font-size: 20px;
+}
+#first .container .container_top .icon_area {
+  height: 32px;
+}
+#first .container .container_top .icon_area .icon {
+  cursor: pointer;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+#first .container .main_content {
+  padding: 50px 10%;
+}
+#first .container .main_content .img_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#first .container .main_content .img_area .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  margin: 8px;
+}
+#first .container .main_content .img_area .img img {
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #000;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#footer .footer_left {
+  width: 15%;
+}
+#footer .footer_middle {
+  width: 70%;
+  text-align: center;
+}
+#footer .footer_middle .Copyright {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  margin: 0px auto;
+}
+#footer .footer_right {
+  width: 10%;
+}
+
+#modal_img {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+#modal_img .modal_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: calc(100% - 70px);
+}
+#modal_img .modal_footer {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 50px;
+}
+#modal_img .modal_footer .img {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px 4px;
+  width: 50px;
+  height: 50px;
+}
