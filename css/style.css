@@ -4,7 +4,7 @@ body {
   font-family: "微軟正黑體", serif;
 }
 
-section {
+#total_container {
   margin-top: 86px;
   background-color: #000;
 }
