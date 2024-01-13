@@ -65,10 +65,10 @@ section {
   width: 15%;
 }
 
-#first .container {
+#about_me .container {
   padding-top: 8px;
 }
-#first .container .container_top {
+#about_me .container .container_top {
   padding: 0px 0px 70px 8%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,19 +88,19 @@ section {
   font-weight: bold;
   font-size: 20px;
 }
-#first .container .container_top .icon_area {
+#about_me .container .container_top .icon_area {
   height: 32px;
 }
-#first .container .container_top .icon_area .icon {
+#about_me .container .container_top .icon_area .icon {
   cursor: pointer;
   display: inline-block;
   width: 32px;
   height: 32px;
 }
-#first .container .main_content {
+#about_me .container .main_content {
   padding: 50px 10%;
 }
-#first .container .main_content .img_area {
+#about_me .container .main_content .img_area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +110,7 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-#first .container .main_content .img_area .img {
+#about_me .container .main_content .img_area .img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,7 +122,7 @@ section {
   height: 400px;
   margin: 8px;
 }
-#first .container .main_content .img_area .img img {
+#about_me .container .main_content .img_area .img img {
   cursor: pointer;
 }
 
