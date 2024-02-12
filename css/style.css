@@ -124,6 +124,7 @@ body {
 }
 #about_me .container .main_content .img_area .img img {
   cursor: pointer;
+  width: 400px;
 }
 
 #footer {
